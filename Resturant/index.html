@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Haven | Artisanal Burgers & More</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Burger Haven</h1>
+                <p>Artisanal Burgers & More</p>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-ul" id="nav-ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Handcrafted Burgers Made With Love</h2>
+            <p>Premium ingredients, bold flavors, unforgettable experiences</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <h2>Our Signature Creations</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Classic Burger">
+                    <h3>The Classic</h3>
+                    <p>Our signature beef patty with aged cheddar, lettuce, tomato, and special sauce</p>
+                </div>
+                <div class="featured-item">
+                    <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bacon Burger">
+                    <h3>Bacon Beast</h3>
+                    <p>Double beef, crispy bacon, smoked gouda, caramelized onions, and BBQ sauce</p>
+                </div>
+                <div class="featured-item">
+                    <img src="https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Veggie Burger">
+                    <h3>Garden Delight</h3>
+                    <p>House-made veggie patty with avocado, sprouts, and garlic aioli</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="burgers">Burgers</button>
+                <button class="tab-btn" data-tab="icecream">Ice Cream</button>
+                <button class="tab-btn" data-tab="drinks">Drinks</button>
+            </div>
+
+            <div class="menu-content active" id="burgers">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Classic Burger">
+                    <div class="item-details">
+                        <h3>The Classic <span>$8.99</span></h3>
+                        <p>Signature beef patty, aged cheddar, lettuce, tomato, pickles, special sauce</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bacon Burger">
+                    <div class="item-details">
+                        <h3>Bacon Beast <span>$10.99</span></h3>
+                        <p>Double beef, crispy bacon, smoked gouda, caramelized onions, BBQ sauce</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Veggie Burger">
+                    <div class="item-details">
+                        <h3>Garden Delight <span>$9.49</span></h3>
+                        <p>House-made veggie patty, avocado, sprouts, garlic aioli, multigrain bun</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Spicy Burger">
+                    <div class="item-details">
+                        <h3>Spicy Southwest <span>$9.99</span></h3>
+                        <p>Beef patty, pepper jack, jalapeños, chipotle mayo, crispy onions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-content" id="icecream">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1560008581-09826d1de69e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Vanilla Ice Cream">
+                    <div class="item-details">
+                        <h3>Classic Vanilla <span>$3.99</span></h3>
+                        <p>Madagascar bourbon vanilla bean in rich cream base</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/choc ice cream.jpg" alt="Chocolate Ice Cream">
+                    <div class="item-details">
+                        <h3>Decadent Chocolate <span>$4.29</span></h3>
+                        <p>Belgian chocolate with cocoa nibs for intense flavor</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Strawberry Ice Cream">
+                    <div class="item-details">
+                        <h3>Strawberry Fields <span>$4.49</span></h3>
+                        <p>Fresh strawberries swirled in sweet cream</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/cookie dough ice cream.jpg" alt="Cookie Dough Ice Cream">
+                    <div class="item-details">
+                        <h3>Cookie Dough Dream <span>$4.99</span></h3>
+                        <p>Vanilla base with chunks of edible cookie dough</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-content" id="drinks">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Coca Cola">
+                    <div class="item-details">
+                        <h3>Coca Cola <span>$2.49</span></h3>
+                        <p>Classic Coca Cola served ice cold</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/sprite.jpg" alt="Sprite">
+                    <div class="item-details">
+                        <h3>Sprite <span>$2.49</span></h3>
+                        <p>Crisp, clean, lemon-lime refreshment</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/ice tea.jpg" alt="Iced Tea">
+                    <div class="item-details">
+                        <h3>House Brewed Iced Tea <span>$2.99</span></h3>
+                        <p>Freshly brewed black tea with lemon</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/milkshake.jpg" alt="Milkshake">
+                    <div class="item-details">
+                        <h3>Handspun Milkshake <span>$5.49</span></h3>
+                        <p>Choose from vanilla, chocolate, or strawberry</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Founded in 2015, Burger Haven began as a small food truck with a big dream - to serve the most delicious, high-quality burgers using locally-sourced ingredients. What started as a passion project quickly grew into a beloved local institution.</p>
+                <p>Today, we continue to honor our roots by crafting each burger with care, from our house-made buns to our special sauce recipes passed down through generations. We believe in food that makes you feel good - in every sense of the word.</p>
+                <a href="#locations" class="btn">Find Us Near You</a>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Our Restaurant">
+            </div>
+        </div>
+    </section>
+
+    <section class="locations" id="locations">
+        <div class="container">
+            <h2>Our Locations</h2>
+            <div class="location-cards">
+                <div class="location-card">
+                    <h3>Downtown</h3>
+                    <p>123 Main Street</p>
+                    <p>Open: 11AM - 10PM Daily</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="location-card">
+                    <h3>Westside</h3>
+                    <p>456 Oak Avenue</p>
+                    <p>Open: 11AM - 10PM Daily</p>
+                    <p>Phone: (555) 765-4321</p>
+                </div>
+                <div class="location-card">
+                    <h3>East End</h3>
+                    <p>789 Pine Road</p>
+                    <p>Open: 11AM - 9PM Daily</p>
+                    <p>Phone: (555) 987-6543</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@burgerhaven.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Anytown</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Burger Haven</h3>
+                    <p>Artisanal Burgers & More</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Join Our Newsletter</h4>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Burger Haven. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

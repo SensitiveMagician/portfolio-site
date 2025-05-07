@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing for Accessibility | Malehola Lesitsi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Same header as index.html -->
+    </header>
+
+    <main class="blog-post">
+        <div class="container">
+            <article>
+                <div class="post-header">
+                    <h1>Designing for Accessibility: A Web Designer's Guide</h1>
+                    <div class="post-meta">
+                        <span class="date">Published on May 15, 2023</span>
+                        <span class="reading-time">5 min read</span>
+                    </div>
+                </div>
+                
+                <div class="post-content">
+                    <p>Accessibility in web design is not just a legal requirement—it's a moral obligation that ensures everyone, regardless of ability, can access and interact with your website. In this post, I'll share practical tips to make your designs more inclusive.</p>
+                    
+                    <h2>Why Accessibility Matters</h2>
+                    <p>Approximately 15% of the world's population lives with some form of disability. That's over a billion people who might interact with your website differently. By designing with accessibility in mind, you're not only expanding your potential audience but also creating a better experience for all users.</p>
+                    
+                    <h2>Key Accessibility Principles</h2>
+                    
+                    <h3>1. Color Contrast</h3>
+                    <p>Ensure sufficient contrast between text and background colors. The WCAG recommends at least 4.5:1 for normal text and 3:1 for large text. Tools like <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM's Contrast Checker</a> can help verify your color choices.</p>
+                    
+                    <h3>2. Keyboard Navigation</h3>
+                    <p>All interactive elements should be accessible via keyboard alone. Test your site by navigating with the Tab key and ensure focus states are clearly visible.</p>
+                    
+                    <h3>3. Semantic HTML</h3>
+                    <p>Use proper HTML elements (like <code>&lt;button&gt;</code> for buttons and <code>&lt;nav&gt;</code> for navigation) to provide meaningful structure that screen readers can interpret.</p>
+                    
+                    <h3>4. Alternative Text</h3>
+                    <p>Always include descriptive alt text for images. For decorative images, use empty alt text (<code>alt=""</code>) to indicate they can be ignored by screen readers.</p>
+                    
+                    <h2>Testing for Accessibility</h2>
+                    <p>Incorporate these tools into your workflow:</p>
+                    <ul>
+                        <li><strong>WAVE</strong> (Web Accessibility Evaluation Tool)</li>
+                        <li><strong>axe DevTools</strong> browser extension</li>
+                        <li><strong>VoiceOver</strong> (macOS) or <strong>NVDA</strong> (Windows) screen readers</li>
+                        <li><strong>Keyboard-only</strong> navigation testing</li>
+                    </ul>
+                    
+                    <p>Remember, accessibility is an ongoing process, not a one-time checklist. By making it part of your design and development workflow, you'll create better experiences for everyone.</p>
+                </div>
+                
+                <div class="post-footer">
+                    <div class="tags">
+                        <span>Tags:</span>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Web Design</a>
+                        <a href="#">UI/UX</a>
+                    </div>
+                    
+                    <div class="sharing">
+                        <span>Share:</span>
+                        <a href="#" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </article>
+            
+            <div class="related-posts">
+                <h3>You Might Also Like</h3>
+                <div class="related-grid">
+                    <div class="related-card">
+                        <a href="#">
+                            <img src="../../assets/images/blog-thumb1.jpg" alt="CSS Grid Layout">
+                            <h4>Mastering CSS Grid Layout</h4>
+                        </a>
+                    </div>
+                    <div class="related-card">
+                        <a href="#">
+                            <img src="../../assets/images/blog-thumb2.jpg" alt="Performance Optimization">
+                            <h4>Web Performance Optimization Tips</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

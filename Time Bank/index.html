@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeBank | Future of Banking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="quantum-loader">
+            <div class="quantum-dot" style="--delay: 0s"></div>
+            <div class="quantum-dot" style="--delay: 0.2s"></div>
+            <div class="quantum-dot" style="--delay: 0.4s"></div>
+            <div class="quantum-dot" style="--delay: 0.6s"></div>
+        </div>
+        <p>Initializing Bolt Security...</p>
+    </div>
+
+    <!-- Floating Particles Background -->
+    <div class="particles" id="particles-js"></div>
+    
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="logo-container">
+                <div class="logo-hologram">
+                    <div class="hologram-beam"></div>
+                    <div class="hologram-circle"></div>
+                    <span class="logo-text">TIME<span>BANK</span></span>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="auth-buttons">
+                    <a href="" class="btn login-btn">Login</a>
+                    <a href="" class="btn register-btn">Register</a>
+                </div>
+                
+                <div class="mobile-menu-btn" id="mobileMenuBtn">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-header">
+                <div class="logo-hologram">
+                    <div class="hologram-beam"></div>
+                    <div class="hologram-circle"></div>
+                    <span class="logo-text">TIME<span>BANK</span></span>
+                </div>
+                <div class="close-menu-btn" id="closeMenuBtn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <ul class="mobile-nav-list">
+                <li><a href="index.html" class="mobile-nav-link active">Home</a></li>
+                <li><a href="#features" class="mobile-nav-link">Features</a></li>
+                <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-auth-buttons">
+                <a href="" class="btn mobile-login-btn">Login</a>
+                <a href="" class="btn mobile-register-btn">Register</a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Welcome to the <span>Future</span> of Banking</h1>
+                    <p class="hero-subtitle">Bolt-secured, AI-powered financial services for the digital age</p>
+                    <div class="hero-cta">
+                        <a href="" class="btn primary-btn pulse-btn">Open Account</a>
+                        <a href="#features" class="btn secondary-btn">Explore Features <i class="fas fa-arrow-down"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="holographic-card">
+                        <div class="card-base"></div>
+                        <div class="card-details">
+                            <div class="card-chip"></div>
+                            <div class="card-logo">
+                                <span>TIME</span>
+                            </div>
+                            <div class="card-number">
+                                <span>•••• •••• •••• 4242</span>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-holder">
+                                    <span>JOHN DOE</span>
+                                </div>
+                                <div class="card-expiry">
+                                    <span>12/25</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-hologram"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features-section" id="features">
+                <div class="section-header">
+                    <h2>Our <span>Features</span></h2>
+                    <p>Discover what makes TimeBank different</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Bolt Security</h3>
+                        <p>Military-grade encryption protects your accounts and transactions with cutting-edge technology.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Instant Transfers</h3>
+                        <p>Send money anywhere in the world in seconds with our lightning-fast transfer network.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Smart Investing</h3>
+                        <p>AI-powered investment tools help grow your wealth with personalized recommendations.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI Assistant</h3>
+                        <p>24/7 virtual assistant handles all your banking needs with natural language processing.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-fingerprint"></i>
+                        </div>
+                        <h3>Biometric Auth</h3>
+                        <p>Secure your account with fingerprint, face ID, or voice recognition technology.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global Access</h3>
+                        <p>Bank from anywhere in the world with our seamless international banking platform.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="testimonials-section" id="testimonials">
+                <div class="section-header">
+                    <h2>Customer <span>Testimonials</span></h2>
+                    <p>What our customers say about us</p>
+                </div>
+                <div class="testimonials-carousel">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"TimeBank has completely transformed how I manage my finances. The AI assistant is incredibly helpful and the security features give me peace of mind."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Tech Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The investment tools have helped me grow my portfolio by 35% this year alone. I've never had such clear insights into my finances."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Investment Analyst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="testimonial-text">"As a frequent traveler, the global access and instant currency exchange features have been game-changers for my business."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez">
+                            </div>
+                            <div class="author-info">
+                                <h4>Emma Rodriguez</h4>
+                                <p>International Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <div class="cta-content">
+                    <h2>Ready to experience the future of banking?</h2>
+                    <p>Join millions of satisfied customers who trust NexusBank with their finances.</p>
+                    <div class="cta-buttons">
+                        <a href="register.html" class="btn primary-btn">Open Free Account</a>
+                        <a href="login.html" class="btn secondary-btn">Existing Customer</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-section" id="contact">
+                <div class="section-header">
+                    <h2>Contact <span>Us</span></h2>
+                    <p>We're here to help you 24/7</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Phone Support</h3>
+                                <p>+1 (800) 123-4567</p>
+                                <p>24/7 customer service</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Email Support</h3>
+                                <p>support@timebank.com</p>
+                                <p>Response within 1 hour</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Headquarters</h3>
+                                <p>123 Bolt Plaza</p>
+                                <p>San Francisco, CA 94107</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Name</label>
+                                <input type="text" id="contactName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email</label>
+                                <input type="email" id="contactEmail" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject</label>
+                                <input type="text" id="contactSubject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message</label>
+                                <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="logo-hologram small">
+                        <div class="hologram-beam"></div>
+                        <div class="hologram-circle"></div>
+                        <span class="logo-text">TIME<span>BANK</span></span>
+                    </div>
+                    <p class="footer-description">Pioneering the future of secure, intelligent banking since 2023.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Personal Banking</a></li>
+                        <li><a href="#">Business Banking</a></li>
+                        <li><a href="#">Wealth Management</a></li>
+                        <li><a href="#">Digital Wallet</a></li>
+                        <li><a href="#">Cryptocurrency</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Security Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">System Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TimeBank. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <div class="security-badges">
+                    <div class="badge"><i class="fas fa-shield-alt"></i> Bolt Encryption</div>
+                    <div class="badge"><i class="fas fa-lock"></i> FDIC Insured</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
