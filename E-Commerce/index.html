@@ -1170,7 +1170,7 @@
                 
                 let oldPriceHTML = '';
                 if (product.oldPrice) {
-                    oldPriceHTML = `<span class="old-price">$${product.oldPrice}</span>`;
+                    oldPriceHTML = `<span class="old-price">M${product.oldPrice}</span>`;
                 }
                 
                 productCard.innerHTML = `
@@ -1189,7 +1189,7 @@
                         <div class="product-price">
                             <div class="price">
                                 ${oldPriceHTML}
-                                <span>$${product.price}</span>
+                                <span>M${product.price}</span>
                             </div>
                             <button class="add-to-cart"><i class="fas fa-plus"></i></button>
                         </div>
@@ -1220,9 +1220,9 @@
             document.getElementById('modalProductImage').src = product.image;
             document.getElementById('modalProductTitle').textContent = product.title;
             
-            let priceHTML = `$${product.price}`;
+            let priceHTML = `M${product.price}`;
             if (product.oldPrice) {
-                priceHTML = `<span class="old-price">$${product.oldPrice}</span> $${product.price}`;
+                priceHTML = `<span class="old-price">M${product.oldPrice}</span> M${product.price}`;
             }
             document.getElementById('modalProductPrice').innerHTML = priceHTML;
             
